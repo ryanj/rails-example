@@ -63,7 +63,7 @@ will be the same.
 1. Create a rails application
 
     ```
-    rhc app create -a railsapp -t ruby-1.9
+    rhc app create railsapp ruby-1.9
     ```
 
    **Note:** To support Ruby 1.8,
@@ -83,7 +83,8 @@ will be the same.
 1. Add mysql support to your application
 
     ```
-    rhc app cartridge add -a railsapp -c mysql-5.1
+    rhc cartridge add mysql-5.1 --app railsapp
+
     ```
 
 1. Add this upstream Rails quickstart repository
