@@ -60,9 +60,11 @@ will be the same.
 
 1. Create an account at http://openshift.redhat.com/
 
-1. Create a rails application
+1. Create a rails application 
 
+    ```
     rhc app create railsapp ruby-1.9
+    ```
 
    **Note:** To support Ruby 1.8,
    ```
