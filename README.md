@@ -62,9 +62,7 @@ will be the same.
 
 1. Create a rails application
 
-    ```
     rhc app create railsapp ruby-1.9
-    ```
 
    **Note:** To support Ruby 1.8,
    ```
