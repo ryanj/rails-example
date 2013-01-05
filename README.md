@@ -82,7 +82,6 @@ will be the same.
 
     ```
     rhc cartridge add mysql-5.1 --app railsapp
-
     ```
 
 1. Add this upstream Rails quickstart repository
